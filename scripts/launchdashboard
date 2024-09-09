@@ -1,0 +1,6 @@
+#!/bin/bash
+
+eww open fastmenu
+eww open dock
+eww open power
+eww open weather
