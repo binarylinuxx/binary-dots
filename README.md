@@ -7,3 +7,4 @@
 # Из галерии
 
 ![img1](.img/hypr-catppuccin.png)
+![img2](hypr-catppuccinv2.png)
