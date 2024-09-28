@@ -35,7 +35,7 @@ $ sudo touch /etc/xbps.d/hyprland-void.conf
 $ sudo echo "repository=https://raw.githubusercontent.com/Makrennel/hyprland-void/repository-x86_64-glibc" >> /etc/xbps.d/hyprland-void.conf
 ```
 дальше "sudo xbps-install -S hyprland hyprland-protocols xdg-desktop-portal-hyprland"
-![img1](hypr-catppuccin.png)
+![img1](hypr-catppuccinv2.png)
 
 ## Также прикладной софт(а даже базовый софт)
 _______________________________________________________________________________________
