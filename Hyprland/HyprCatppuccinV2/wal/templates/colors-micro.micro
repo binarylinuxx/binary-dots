@@ -1,0 +1,30 @@
+# Цвета для текста и элементов интерфейса
+color-link default "{color1},{color2}"
+color-link comment "{color4},{color3}"         # Сделал комментарии менее заметными, чтобы не отвлекали
+color-link identifier "{color5},{color6}"
+color-link constant "{color7},{color8}"
+color-link constant.string "{color9},{color10}"
+color-link constant.string.char "{color11},{color12}"
+color-link statement "{color13},{color14}"
+color-link symbol "{color15},{color1}"         # Добавил больше контраста
+color-link preproc "{color2},{color4}"          # Сделал более заметным
+color-link type "{color6},{color7}"             # Сделал более разнообразным
+color-link special "{color8},{color9}"
+color-link underlined "{color10},{color11}"     # Выделил важные элементы
+color-link error "bold {color12},{color13}"     # Сделал ярче для лучшей заметности
+color-link todo "bold {color14},{color15}"      # Сделал ярче для лучшего выделения
+color-link statusline "{color3},{color4}"
+color-link tabbar "{color5},{color6}"
+color-link indent-char "{color7},{color8}"
+color-link line-number "{color9},{color10}"
+color-link current-line-number "{color11},{color12}"
+color-link gutter-error "{color13},{color14}"
+color-link gutter-warning "{color15},{color1}"
+color-link cursor-line "{color2}"               # Более заметный курсор
+color-link color-column "{color3}"
+color-link type.extended "{color4}"
+color-link symbol.tag "{color5},{color6}"
+
+
+
+
