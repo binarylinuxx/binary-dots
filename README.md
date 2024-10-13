@@ -8,3 +8,6 @@
 
 ![img1](.img/hypr-catppuccin.png)
 ![img2](hypr-catppuccinv2.png)
+
+##Гайды
+[```PipeWire```](https://github.com/binarylinuxx/binary-dots/blob/main/guides/pipewire-setup.md)
