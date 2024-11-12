@@ -1,4 +1,4 @@
-# ИМПОРТ МОДУЛЕЙ ###################################################################
+# импорт всяких модулей ###################################################################
 from __future__ import annotations
 from typing import Callable, Any
 
@@ -26,7 +26,7 @@ from pywm import (
 logger = logging.getLogger(__name__)
 
 
-# АВТОЗВПУСК #######################################################################
+# автозапуск #######################################################################
 def on_startup():
     init_service = (
         "systemctl --user import-environment \
@@ -43,7 +43,7 @@ def on_startup():
         os.system(service)
 
 
-# ТЕМЫ, ИКОНКИ, ШРИФТЫ И НАСТРОЙКИ МЫШИ, КЛАВИАТУРЫ И ТАЧПАДА ######################
+# темки ######################
 def on_reconfigure():
     os.system("notify-send -h string:x-canonical-private-synchronous:sys-notify -u low -i ~/.config/newm/mako/icons/desktop.png NEWM \"Configuration Reloaded\" &")
     gnome_schema = 'org.gnome.desktop.interface'
@@ -115,8 +115,8 @@ def app_rules(view):
     if view.app_id == "wlogout":
         return { "float": True, "float_size": (1920, 1080) }
     
-    #Правила для wofi
-    if view.app_id == "wofi":
+    #Правила для rofi
+    if view.app_id == "rofi":
         return { "float": True }
 
     return None
@@ -177,11 +177,11 @@ panels = {
     },
 }
 
-# ХОТКЕИ ###########################################################################
+# горячие клавишы ###########################################################################
 terminal = 'foot'
-menu = 'wofi --show drun'
+menu = 'rofi --show drun'
 wlogout = 'wlogout'
-screenshot = 'grim'
+screenshot = 'grim' скриншоты
 
 def key_bindings(layout: Layout) -> list[tuple[str, Callable[[], Any]]]:
     return [
