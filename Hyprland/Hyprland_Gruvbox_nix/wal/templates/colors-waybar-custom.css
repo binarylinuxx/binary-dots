@@ -1,0 +1,5 @@
+@define-color fg {foreground};
+@define-color bg {background};
+@define-color accent {color0};
+@define-color highlight {color1};
+@define-color border {color2};
