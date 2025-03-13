@@ -1,0 +1,56 @@
+*{
+    font-family: Jetbrains Mono;
+    font-size: 13px;
+    font-weight: 900;
+}
+
+@define-color fg #d3c6aa;
+@define-color bg #1e2326;
+@define-color accent #0c0c12;
+@define-color gr #272e33;
+@define-color border #636478;
+
+window {
+    background-color: @bg;
+    border-radius: 20px;
+    color: @bg;
+}
+#input {
+    margin: 10 0 10 0x;
+    padding: 1;
+    border-radius: 18px;
+    border: none;
+    border-bottom: 0px solid @fg;
+    background-color: @gr;
+    color: @fg;
+}
+#inner-box {
+    background-color: @bg;
+    padding: 15 0 0 0;
+}
+#outer-box {
+    margin: 20px;
+    padding: 0px;
+    background-color: @bg;
+}
+#text {
+	padding: 8px;
+	margin: 2px;
+	color: @fg;
+}
+#entry {
+	background-color: @bg;
+	padding: 0 15px;
+}
+#entry:nth-child(even){
+	background-color: @bg;
+	padding: 0 15px;
+}
+#entry:selected {
+	border-radius: 5px;
+	background-color: @gr;
+}
+#text:selected {
+	color: @fg;
+}
+

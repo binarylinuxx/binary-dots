@@ -1,0 +1,16 @@
+width=500
+height=320
+x=722
+y=690
+
+columns=3
+
+no_actions=true
+hide_scroll=true
+
+image_size=25
+allow_images=true
+prompt=search
+term=foot
+#hide_search=false скрывать панель поиска
+

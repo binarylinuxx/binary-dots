@@ -1,0 +1,13 @@
+(defpoll LANG  :interval "0.1s" `~/.config/eww/scripts/kb_layout.sh`)
+(defpoll AUDIO :interval "0.1s" `~/.config/eww/scripts/audio.sh`)
+(defpoll TIME  :interval "1s" `~/.config/eww/scripts/time.sh`)
+
+(defwidget right []
+    (box :orientation "h"
+         :space-evenly "false"
+         :spacing 2
+         :anchor "right"
+         :halign "end"
+         (label :class "LANG" :text LANG)
+         (label :class "audio" :text AUDIO)
+         (label :class "time" :text TIME)))

@@ -1,0 +1,6 @@
+(defwidget left []
+  (box
+    :orientation "h"
+    :space-evenly "false"
+    :spacing 2
+    (button :class "button" :onclick "eww open coc" "Power 󰤆")))

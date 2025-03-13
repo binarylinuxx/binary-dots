@@ -1,0 +1,20 @@
+(defwindow coc ;; control center with shutdown, suspend, and reboot buttons
+                  :monitor 0
+                  :hexpand false
+                  :vexpand false
+                  :geometry (geometry :x "0px"
+                                      :y "0px"
+                                      :width "180px"
+                                      :height "60px"
+                                      :anchor "bottom left")
+                  (box :orientation "h" ;; vertical box to stack buttons
+                       :spacing 3
+                       (button :class "rbutton"
+                                :onclick "loginctl poweroff"
+                                "󰐥")
+                       (button :class "rbutton"
+                                :onclick "loginctl suspend"
+                                "󰤄")
+                       (button :class "rbutton"
+                                :onclick "loginctl reboot"
+                                "󰜉")))

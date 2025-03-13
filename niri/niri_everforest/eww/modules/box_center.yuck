@@ -1,0 +1,8 @@
+(defpoll FW :interval "0.001s" '~/.config/eww/scripts/fw.sh')
+
+(defwidget center []
+    (box :orientation "h"
+         :space-evenly "false"
+         :spacing 7
+         :homogeneous true
+         (label :class "fw" :text FW)))

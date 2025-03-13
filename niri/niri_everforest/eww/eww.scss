@@ -1,0 +1,68 @@
+@import 'colors';
+* {
+	font-family: Jetbrains Mono;
+	font-weight: 900;
+	font-size: 17px;
+}
+
+.bar {
+	background:  $on_primary;
+}
+
+.audio {
+	background:  $on_primary_fixed;
+	color: $secondary;
+	margin: 3 3;
+	padding: 0 6;
+	border-radius: 10;
+}
+
+
+.LANG {
+	background:  $on_primary_fixed;
+	color: $secondary;
+	margin: 3 3;
+	padding: 0 6;
+	border-radius: 10;
+}
+
+.time {
+	background:  $on_primary_fixed;
+	color: $secondary;
+	margin: 3 3;
+	padding: 0 6;
+	border-radius: 10;
+}
+
+.fw {
+	background:  $on_primary_fixed;
+	color: $secondary;
+	margin: 3 3;
+	padding: 0 6;
+	border-radius: 10;
+}
+
+.button {
+	background:  $on_primary_fixed;
+	color: $secondary;
+	margin: 3 3;
+	padding: 0 10;
+	border-radius: 10;
+}
+
+.rbutton {
+	background:  $on_primary_fixed;
+	color: $secondary;
+	font-size: 100;
+	margin: 3 3;
+	padding: 0 10;
+	border-radius: 40;
+}
+
+.coc {
+	border-top-left-radius: 0px;
+	border-top-right-radius: 30px;
+	border-top-left-radius: 0px;
+	background: $on_primary;
+}
+

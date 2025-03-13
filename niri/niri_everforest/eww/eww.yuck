@@ -1,0 +1,6 @@
+(include "modules/box_left.yuck") ;; left box of widgets
+(include "modules/box_center.yuck") ;; center widgets box
+(include "modules/box_right.yuck") ;; right widgets box
+(include "coc.yuck") ;; control widgets center
+(include "windows.yuck") ;; bar 
+
